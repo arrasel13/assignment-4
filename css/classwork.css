@@ -1,0 +1,52 @@
+.menu {
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	/*margin: 0px 20px 0px 0px;*/
+
+}
+.menu-item {
+	margin: 0px 20px 0px 0px;
+}
+
+.centertext {
+	color: goldenrod;
+	text-align: center;
+	border-bottom: 1px dotted goldenrod;
+}
+
+.redcolor{
+	color: red;
+}
+.greencolor{
+	color: green;
+}
+
+
+.blockelement{
+	background-color: lightskyblue;
+	display: inline-block;
+}
+.inlineelement{
+	background-color: lightgrey;
+	display: inline-block;
+}
+
+.form{
+	text-align: center;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+
+table{
+	border: 1px solid black;
+	text-align: center;
+}
+
+table caption{
+	border: 1px solid red;
+}
+
+table tr th, tr td{
+	border: 1px solid red;
+}

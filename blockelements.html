@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Block Elements</title>
+	<link rel="stylesheet" href="css/blockelements.css">
+</head>
+<body>
+
+	<div class="menu">
+		<a href="index.html" class="menu-item">Home</a>
+		<a href="inlineelements.html" class="menu-item">Inline Elements</a>
+		<a href="blockelements.html" class="menu-item">Block Elements</a>
+		<a href="layoutone.html" class="menu-item">Layout-1</a>
+		<a href="layouttwo.html" class="menu-item">Layout-2</a>		
+		<a href="layoutthree.html" class="menu-item">Layout-3</a>
+	</div>
+	<hr>
+	<h1 class="centertext">Block Elements</h1>
+
+	<nav>
+	  	<a href="index.html">Home</a> |
+		<a href="inlineelements.html">Inline Elements</a> |
+		<a href="blockelements.html">Block Elements</a> |
+		<a href="layoutone.html">Layout-1</a> |
+		<a href="layouttwo.html">Layout-2</a> |	
+		<a href="layoutthree.html">Layout-3</a>
+	</nav>
+	<br>
+	<address>
+		Name: AR Rasel<br>
+		Contact No: 012345678912
+	</address>
+	
+
+	<main>
+		<article>
+			<header>
+				<h4>This is an article</h4>
+			</header>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium quos tenetur atque, assumenda, doloremque repudiandae molestias tempore officiis consectetur. Officiis?</p>
+		</article>
+	</main>
+
+	<aside>
+		<h4>This is aside Tag</h4>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+	</aside>
+
+	<section>
+		<h2>This is Section</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Nulla suscipit, molestiae molestias quidem voluptatibus, minima quia, iure voluptatum voluptates eaque velit odio est exercitationem omnis, laudantium et commodi. Atque, quisquam.</p>
+	</section>
+
+	<p>This is Blockquote Tag</p>
+	<blockquote cite="https://shikhbeshobai.com/">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, voluptate quod maxime perferendis deserunt ut, sint amet possimus accusamus illo.
+	</blockquote>
+
+	<p>The dl, dd, and dt elements:</p>
+	<dl>
+	  <dt>Coffee</dt>
+	  <dd>Black hot drink</dd>
+	</dl>
+
+	<div class="green"></div>
+
+	<form action="">
+	 <fieldset>
+	  <legend>Fieldset:</legend>
+	  <label for="fname">First name:</label>
+	  <input type="text" id="fname" name="fname"><br><br>
+	  <label for="lname">Last name:</label>
+	  <input type="text" id="lname" name="lname"><br><br>
+	  <label for="email">Email:</label>
+	  <input type="email" id="email" name="email"><br><br>
+	  <label for="birthday">Birthday:</label>
+	  <input type="date" id="birthday" name="birthday"><br><br>
+	  <input type="submit" value="Submit">
+	 </fieldset>
+	</form>
+
+	<figure>
+	  <img src="images/facebook.jpeg" alt="Facebook" style="width:20%">
+	  <figcaption>Fig.1 - Facebook - Figcaption on Figure</figcaption>
+	</figure>
+
+
+	<h1>This is heading 1</h1>
+	<h2>This is heading 2</h2>
+	<h3>This is heading 3</h3>
+	<h4>This is heading 4</h4>
+	<h5>This is heading 5</h5>
+	<h6>This is heading 6</h6>
+
+	<p>Unorder List</p>
+	<ul>
+		<li>Milk</li>
+		<li>Coffee</li>
+		<li>Tea</li>
+	</ul>
+	<hr>
+
+	<p>Ordered List</p>
+	<ol>
+		<li>Milk</li>
+		<li>Tea</li>
+		<li>Coffee</li>
+	</ol>
+
+	<pre>
+		Text in a pre element
+		is displayed in a fixed-width
+		font, and it preserves
+		both      spaces and
+		line breaks
+	</pre>
+
+	<p>Video Tag:</p>
+	<video width="320" height="240" src="video_files/video_file.mp4" controls></video>
+
+	<footer>
+	  <p>Author: AR Rasel</p>
+	  <p><a href="#">arrasel@example.com</a></p>
+	</footer>
+
+	<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+	<script>
+		document.write("Hello World!")
+	</script>
+	<noscript>Your browser does not support JavaScript!</noscript>
+
+	<script>
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.fillStyle = "#FF0000";
+	ctx.fillRect(0, 0, 80, 100);
+	</script>
+
+</body>
+</html>

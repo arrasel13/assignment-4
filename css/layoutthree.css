@@ -1,0 +1,281 @@
+
+/*Top Header CSS Here*/
+
+.top-header{
+	overflow: hidden;
+	border-bottom: 1px solid #cdcdcd;
+}
+.top-header-left{
+	width: 60%;
+	height: 30px;
+	padding: 10px 20px;
+	/*background-color: lightgreen;*/
+	float: left;
+}
+.top-header-right{
+	width: 30%;
+	height: 30px;
+	padding: 10px 20px;
+	/*background-color: lightgreen;*/
+	float: right;
+}
+.social-icon{
+	margin-left: 15px;
+}
+
+/*Header Part CSS Here*/
+
+.header{
+	overflow: hidden;
+	/*background-color: lightgrey;*/
+	text-align: center;
+}
+.site-logo{
+	width: 20%;
+	min-height: 50px;
+	/*background-color: lightgrey;*/
+	padding: 10px 0px;
+	text-align: center;
+	float: left;
+}
+.logo-size{
+	height: 65px;
+}
+.menu {
+	width: 60%;
+	min-height: 50px;
+	/*background-color: lightgrey;*/
+	padding: 20px 0px;
+	text-align: center;
+	/*padding: 10px 0px 10px 0px;*/
+	/*margin: 0px 20px 0px 0px;*/
+	float: left;
+
+}
+.menu-item {
+	margin: 0px 20px 0px 0px;
+}
+
+.appointment-button{
+	width: 20%;
+	min-height: 50px;
+	/*background-color: lightgrey;*/
+	padding: 20px 0px;
+	float: left;
+
+}
+#appointment-button{
+	padding: 15px 20px;
+	border: 1px solid #1d6583;
+	background-color: #1d6583;
+	color: white;
+	text-align: center;
+}
+
+/*Hero Section CSS*/
+
+.hero-section{
+	/*height: 400px;*/
+	/*background-color: lightgreen;*/
+}
+.hero-image{
+	width: 100%;
+	height: 400px;
+}
+
+
+/*Welcome Section CSS*/
+
+.welcome{
+	overflow: hidden;
+}
+.welcome-section{
+	width: 31.7%;
+	height: 350px;
+	float: left;
+	/*background-color: lightgrey;*/
+}
+.welcome-image{
+	text-align: right;
+	padding: 0px 20px 0px 0px;
+	/*margin: 0px 0px 0px 0px;*/
+}
+.welcome-content{
+	padding: 0px 20px 0px 20px;
+	margin-top: 30px;
+}
+.welcome-content-button{
+	padding: 20px;
+	border: 1px solid #1d6583;
+	background-color: #1d6583;
+	color: white;
+	text-align: center;
+}
+.welcome-menu{
+	margin-top: 30px;
+}
+.welcome-menu-item{
+	display: block;
+	margin: 10px 50px 0px 0px;
+	padding: 20px;
+	border: 1px solid #1d6583;
+	background-color: #1d6583;
+	color: white;
+	text-align: center;
+}
+
+
+/*Department CSS*/
+
+.department{
+	overflow: hidden;
+	background-color: #f5f5f5;
+	padding: 50px;
+}
+.dept{
+	width: 18.9%;
+	min-height: 150px;
+	background-color: white;
+	float: left;
+	margin: 5px;
+	padding: 50px 30px;
+	text-align: center;
+}
+.dept-img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.dept-schedule{
+	padding: 12px;
+}
+
+
+/*Why Us CSS*/
+
+.why-us{
+	background-color: white;
+}
+.why-us-top{
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.why-us-top-left{
+	color: #fff;
+	width: 42%;
+	padding: 50px;
+	background-color: #1d6583;
+	float: left;
+	height: 326px;
+}
+.why-us-top-right{
+	width: 50%;
+	float: left;
+	height: 326px;
+}
+
+
+.why-us-bottom{
+	overflow: hidden;
+}
+.why-us-bottom-left{
+	width: 50%;
+	float: left;
+}
+.why-us-bottom-right{
+	width: 42%;
+	padding: 50px;
+	background-color: white;
+	float: left;
+	height: 326px;
+}
+
+progress {
+  border: none;
+  width: 400px;
+  height: 60px;
+  background: crimson;
+}
+
+progress {
+  color: lightblue;
+}
+
+progress::-moz-progress-bar {
+  background: lightcolor;
+}
+
+progress::-webkit-progress-value {
+  background: #1d6583;
+  /*background: #6aa8e5;*/
+}
+
+progress::-webkit-progress-bar {
+  background: #f5f5f5;
+}
+
+
+/*Call to Action Section*/
+
+.call-to-action{
+	overflow: hidden;
+	padding: 50px;
+	background-color: #1d6583;
+}
+.cta-content{
+	float: left;
+	color: #fff;
+	margin-left: 50px;
+}
+.cta-image{
+	float: right;
+	text-align: center;
+	margin-right: 100px;
+}
+.cta-image img{
+	width: 100px;
+	height: 100px;
+	display: inline;
+	border-radius: 100px;
+	margin-left: 10px;
+}
+
+
+
+/*Footer CSS*/
+.footer-section{
+	overflow: hidden;
+}
+.footer{
+	width: 20.25%;
+	min-height: 300px;
+	background-color: #2a2a2a;
+	padding: 30px;
+	float: left;
+	color: white;
+}
+
+.footer-dept{
+	display: block;
+	padding: 15px;
+	color: white;
+}
+
+.footer-menu-item{
+	display: block;
+	padding: 10px;
+	color: white;
+}
+
+
+.footer-oh{
+	color:  red;
+}
+
+.copy-right-section{
+	border: 1px solid #242424;
+	min-height: 50px;
+	background-color: #242424;
+	text-align: center;
+	color: white;
+}
